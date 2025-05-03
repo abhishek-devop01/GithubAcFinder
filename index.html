@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub User Finder</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-950 text-white font-sans min-h-screen flex items-center justify-center p-4">
+    <div class="w-full max-w-2xl space-y-6">
+        <!-- Header -->
+        <header class="text-center">
+            <h1 class="text-4xl font-bold tracking-tight">GitHub User Finder</h1>
+            <p class="text-gray-400 text-sm mt-2">Search and view GitHub user profiles in style</p>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="flex items-center gap-2 bg-gray-800 rounded-lg p-2 focus-within:ring-2 focus-within:ring-blue-500">
+            <input type="text" placeholder="Enter GitHub username..."
+                class="usernameinp flex-1 bg-transparent outline-none text-white placeholder-gray-400 px-3 py-2" />
+            <button class="search bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-md text-sm font-medium transition">
+                Search
+            </button>
+        </div>
+
+        <!-- Profile Card (Dummy Data) -->
+        <div class="card bg-gray-900 border border-gray-700 rounded-xl p-6 shadow-lg flex flex-col sm:flex-row gap-6">
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-xs text-gray-500 mt-10">
+            Creater Abhishek M. Sharma
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
